@@ -197,3 +197,59 @@
 .dyvix-select-neon .dyvix-select-dropdown-neon::-webkit-scrollbar-thumb {
   background: rgba(252, 46, 255, 0.6);
 }
+/* Sunset Theme */
+.dyvix-select-sunset .dyvix-select-input-sunset {
+  background: linear-gradient(135deg, #1a0a2e 0%, #2d1b4e 50%, #1a0a2e 100%);
+  border: 2px solid rgba(255, 107, 53, 0.4);
+  color: #ffffff;
+  border-radius: 12px;
+  box-shadow:
+    0px 0px 20px rgba(255, 107, 53, 0.2),
+    0px 0px 40px rgba(255, 61, 87, 0.1);
+  transition:
+    border-color 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out;
+}
+
+.dyvix-select-sunset .dyvix-select-input-sunset:hover {
+  border-color: rgba(255, 107, 53, 0.7);
+  box-shadow:
+    0px 0px 25px rgba(255, 107, 53, 0.35),
+    0px 0px 50px rgba(255, 61, 87, 0.2);
+}
+
+.dyvix-select-sunset .dyvix-select-input-sunset:focus {
+  border-color: #ff6b35;
+  box-shadow:
+    0px 0px 30px rgba(255, 107, 53, 0.5),
+    0px 0px 60px rgba(255, 61, 87, 0.25);
+  outline: none;
+}
+
+.dyvix-select-sunset .dyvix-select-input-sunset::placeholder {
+  color: rgba(255, 183, 77, 0.6);
+}
+
+.dyvix-select-sunset .dyvix-select-dropdown-sunset {
+  background: var(--dyvix-select-dropdown-color, #1a0a2e);
+  border: 1px solid rgba(255, 107, 53, 0.35);
+  border-radius: 12px;
+  box-shadow: 0px 0px 30px rgba(255, 107, 53, 0.2);
+
+  --dyvix-select-active-bg: #ff6b35;
+  --dyvix-select-active-text: #ffffff;
+}
+
+.dyvix-select-sunset .dyvix-select-dropdown-sunset li {
+  color: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid rgba(255, 107, 53, 0.1);
+}
+
+.dyvix-select-sunset .dyvix-select-dropdown-sunset li:hover {
+  background: rgba(255, 107, 53, 0.15);
+  color: #ffffff;
+}
+
+.dyvix-select-sunset .dyvix-select-dropdown-sunset::-webkit-scrollbar-thumb {
+  background: rgba(255, 107, 53, 0.6);
+}
